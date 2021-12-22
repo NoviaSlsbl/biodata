@@ -1,0 +1,38 @@
+<style type="text/css">
+		body{
+			background-image: url(awan.jpg);
+			height: 100vh;
+    		background-color:blueviolet ;
+    		background-size: cover;
+    		background-position: center;
+    		background-repeat: no-repeat;
+		}
+
+		form{
+			display: grid;
+			grid-template-columns: 2fr 3fr;
+			grid-gap: 10px;
+		}
+
+		form p {
+			grid-column: 1 / 2;
+		}
+		.input-file-wrapper {
+			grid-column: 1 / 2;
+			
+		}
+		h1{
+			color: black;
+			font-family: italic;
+			text-align: center;
+		}
+		h2{
+			color: whitesmoke;
+		}
+		label{
+			color: black;
+		}
+
+		a{
+			color: black;
+		}
